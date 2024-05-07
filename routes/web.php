@@ -62,4 +62,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/users/index', [UserController::class, 'index'])->name('users.index');
 });
 
+php artisan storage:link
+
+
 
